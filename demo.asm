@@ -1,33 +1,7 @@
 assume cs:code,ds:data,ss:stack
 data segment
 	db 'Welcome to Masm!'
-	db 10000101b
-	db 00010100b
-	db 00000010b
-	db 10000101b
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b
-	db 00000010b	
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b
-	db 10000101b
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b
-	db 00000010b	
-	db 00010100b
-	db 00000010b	
-	db 00010100b
-	db 00000010b
+	db 32 dup ( 00000010b)
 data ends
 
 stack segment	stack
